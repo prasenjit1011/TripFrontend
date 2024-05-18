@@ -100,7 +100,7 @@ function Gift() {
       personalMsg: giftData.msg,
       amount: giftData.ammount,
       giftApplyLink:
-        "http://34.201.127.230:2039/?lan=eng&currentTab=64d3a05d05edf815fbfb46a5",
+        "https://6t54h7-3000.csb.app/?lan=eng&currentTab=64d3a05d05edf815fbfb46a5",
     };
 
     // console.log("sendDataAs", sendData)
