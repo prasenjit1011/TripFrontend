@@ -85,12 +85,12 @@ const Footer = () => {
                   <p className="subColHeadingPart">WORK WITH US</p>
                   <ul>
                     <li>
-                      <a href="http://34.201.127.230:2060/registration" target="_blank" style={{ color: '#fff' }}>
+                      <a href="http://127.0.0.1:2060/registration" target="_blank" style={{ color: '#fff' }}>
                         Become a Supplier
                       </a>
                     </li>
                     <li>
-                      <a href="http://34.201.127.230:2060/login" target="_blank" style={{ color: '#fff' }}>
+                      <a href="http://127.0.0.1:2060/login" target="_blank" style={{ color: '#fff' }}>
                         Supplier Portal Login
                       </a>
                     </li>
@@ -386,7 +386,7 @@ const Footer = () => {
                   <ul>
                     <li className="footerThingsLi">
                       <a
-                        href="http://34.201.127.230:2060/login"
+                        href="http://127.0.0.1:2060/login"
                         target="_blank"
                         style={{ color: "#fff" }}
                         className="resFooterLiAn"
@@ -396,7 +396,7 @@ const Footer = () => {
                     </li>
                     <li className="footerThingsLi">
                       {/* <a
-                        href="http://34.201.127.230:2060/registration"
+                        href="http://127.0.0.1:2060/registration"
                         target="_blank"
                         style={{ color: "#fff" }}
                       >
@@ -596,7 +596,7 @@ const Footer = () => {
                       <ul className="resFooterUl">
                         <li className="resFooterLi">
                           <a
-                            href="http://34.201.127.230:2060/login"
+                            href="http://127.0.0.1:2060/login"
                             target="_blank"
                             style={{ color: "#fff" }}
                             className="resFooterLiAn"
@@ -606,7 +606,7 @@ const Footer = () => {
                         </li>
 
                         <li className="resFooterLi">
-                          {/* <a href="http://34.201.127.230:2060/registration" target="_blank" style={{ color: '#fff' }}>
+                          {/* <a href="http://127.0.0.1:2060/registration" target="_blank" style={{ color: '#fff' }}>
                           Become a Supplier
                         </a> */}
                           <button

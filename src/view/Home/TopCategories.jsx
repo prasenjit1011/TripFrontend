@@ -128,7 +128,7 @@ const TopCategories = () => {
                     <div className="aweAfterPartUlParent aweAfterPartUlParentOne">
                       <div>
                         <ul
-                          className="row row-cols-xl-5 row-cols-lg-4 row-cols-sm-3 row-cols-2"
+                          className="row row-cols-xl-12 row-cols-lg-12 row-cols-sm-12 row-cols-12"
                           style={{ paddingBottom: "30px" }}
                         >
                           {fetchedTopCountries?.map((item, i) => {
@@ -154,7 +154,7 @@ const TopCategories = () => {
                   <div className="aweAfterPartUlParent aweAfterPartUlParentOne">
                     <div>
                       <ul
-                        className="row row-cols-xl-5 row-cols-lg-4 row-cols-sm-3 row-cols-2"
+                        className="row row-cols-xl-12 row-cols-lg-12 row-cols-sm-12 row-cols-12"
                         style={{ paddingBottom: "30px" }}
                       >
                         {fetchedTopCities.map((item, i) => {
@@ -185,7 +185,7 @@ const TopCategories = () => {
                   <div className="aweAfterPartUlParent aweAfterPartUlParentOne">
                     <div>
                       <ul
-                        className="row row-cols-xl-5 row-cols-lg-4 row-cols-sm-3 row-cols-2"
+                        className="row row-cols-xl-12 row-cols-lg-12 row-cols-sm-12 row-cols-12"
                         style={{ paddingBottom: "30px" }}
                       >
                         {fetchedTopActivitySites?.map((item, i) => {

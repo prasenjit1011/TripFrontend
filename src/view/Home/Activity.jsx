@@ -84,12 +84,7 @@ function Activity({ data }) {
       <div className="custContain">
         <div className="tab-content">
           <div className="tab-pane active" id="tabs-1" role="tabpanel">
-            <div className="row">
-              <div className="col-12">
-                <p className="mainSectionHeadingPart"> <h1> activitytitle </h1></p>
-                <p className="mainSectionHeadingPart">{activitytitle}</p>
-              </div>
-            </div>
+
             <div className="culturalExperiencePart row">
               {activities?.map((item, idx) => {
                 return (
