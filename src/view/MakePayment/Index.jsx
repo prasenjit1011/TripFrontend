@@ -152,7 +152,7 @@ function Index() {
 
   const makeStripePaymentSession = async (data) => { 
     try {
-  const response = await fetch('https://6t54h7-3000.csb.app/your-server-endpoint-to-create-session', {
+  const response = await fetch('https://qzxsyh-3000.csb.app/your-server-endpoint-to-create-session', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

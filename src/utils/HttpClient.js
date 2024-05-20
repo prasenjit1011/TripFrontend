@@ -1,9 +1,10 @@
 import { reactLocalStorage } from 'reactjs-localstorage';
-const BASE_URL = 'https://6t54h7-3000.csb.app/api/';
-const ALLOW_ORIGIN = 'https://6t54h7-3000.csb.app';
+
+const BASE_URL = 'https://qzxsyh-3000.csb.app/api/';
+const ALLOW_ORIGIN = 'https://qzxsyh-3000.csb.app';
 const USER_TYPE = 'User';
 
-const ipaddress='https://6t54h7-3000.csb.app'
+const ipaddress='https://qzxsyh-3000.csb.app';
 
 function get(endpoint, params) {
   return requestData(endpoint, params);
