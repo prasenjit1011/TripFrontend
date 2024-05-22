@@ -102,7 +102,8 @@ function Activity({ data }) {
                           <p className="edinBurgText">{item.activityTitle}</p>
                           <p className="timeTextPart">
                             {item?.tourDuration?.value}{" "}
-                            {item?.tourDuration?.unit}
+                            {/*item?.tourDuration?.unit*/}
+                            Hours
                           </p>
 
                           <div>
