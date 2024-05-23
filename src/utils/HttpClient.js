@@ -1,7 +1,7 @@
 import { reactLocalStorage } from 'reactjs-localstorage';
 
-//const ALLOW_ORIGIN = 'https://qzxsyh-3000.csb.app';
-const ALLOW_ORIGIN = 'http://localhost:8025';
+const ALLOW_ORIGIN = 'https://27cxd2-3000.csb.app';
+//const ALLOW_ORIGIN = 'http://localhost:8025';
 
 
 const BASE_URL = ALLOW_ORIGIN+'/api/';
