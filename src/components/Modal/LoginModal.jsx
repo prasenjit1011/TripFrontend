@@ -612,6 +612,7 @@ function LoginModal({ setShowLoginModal, setShowSignUpModal }) {
                     cursor: "pointer",
                     fontWeight: "500",
                     textAlign: "center",
+                    display:"none",
                     // textDecoration: 'underline',
                   }}
                   onClick={() => {
@@ -629,6 +630,7 @@ function LoginModal({ setShowLoginModal, setShowSignUpModal }) {
                     fontWeight: "500",
                     textAlign: "center",
                     textDecoration: "underline",
+                    display:"none",
                   }}
                   onClick={() => {
                     // setShowLoginModal(false);
@@ -642,7 +644,7 @@ function LoginModal({ setShowLoginModal, setShowSignUpModal }) {
             </form>
 
             {/* social media section */}
-            <div className="socialMediaImages">
+            <div className="socialMediaImages" style={{display:"none"}}>
               <figure onClick={() => handleGoogleLogin()}>
                 <img src={aa} alt="google" />
               </figure>
