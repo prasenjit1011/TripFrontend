@@ -397,7 +397,7 @@ const Navbar = () => {
               href={`/?lan=eng&currentTab=${fetchedActivityTypes?.[0]?._id}`}
               className="navbar-brand thingNavbarBrand"
             >
-              <img src={logo} alt="logo" style={{width:"100px", height:"30px"}} />
+              <img src={logo} alt="logo" />
             </a>
             {/* <Link to={`/?lan=eng&currentTab=${fetchedActivityTypes?.[0]?._id}`} className="navbar-brand">
               <img src={logo} alt="logo" />
