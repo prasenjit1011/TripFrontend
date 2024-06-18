@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import user from "../assets/Images/user.png";
 import logo from "../assets/Images/tulio.png";
+import logoicon from "../assets/Images/logoicon.png";
 import settings from "../assets/Images/signUpHover/settings.png";
 import gift from "../assets/Images/signUpHover/gift.png";
 import clock from "../assets/Images/signUpHover/clock.png";
@@ -384,6 +385,10 @@ const Navbar = () => {
       document.removeEventListener("mousedown", searchOutsideClickHandler);
   });
 
+  const [windowWidth, setWidth] = useState(window.innerWidth);
+
+
+
   return (
     <>
       <MainLoader isLoading={isLoading} />
@@ -397,7 +402,7 @@ const Navbar = () => {
               href={`/?lan=eng&currentTab=${fetchedActivityTypes?.[0]?._id}`}
               className="navbar-brand thingNavbarBrand"
             >
-              <img src={logo} alt="logo" />
+              <img src={windowWidth < 775 ? logoicon : logo} alt="logo" />
             </a>
             {/* <Link to={`/?lan=eng&currentTab=${fetchedActivityTypes?.[0]?._id}`} className="navbar-brand">
               <img src={logo} alt="logo" />
